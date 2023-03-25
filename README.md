@@ -20,11 +20,11 @@ Given what I've seen so far, I conclude:
 
 * There should be a different repository per supplement.  
 
-    * If a working group generates 25 versions (internal, wg-06 shared, PC, LB, FT) and over ten year period they generate 40 supplements we hit the 1 GB limit if they are all in one repository.  A few working groups exceed 1GB on the FTP server.  WG-06 greatly exceeds that limit.
+    * If a working group generates 50 shared/saved versions (many internal, wg-06 shared, PC, LB, FT) and over ten year period they work on 20 supplements we may hit the 1 GB limit if they are all in one repository.  A few working groups exceed 1GB on the FTP server.  WG-06 greatly exceeds that limit.
 
     * It's hard to manage many authorized writers for one repository over a long period of time unless we pay for enterprise accounts, and then get all the working group participants to become members of the enterprise account.  This looks expensive and burdensome for NEMA staff.
 
-    * It's easy to manage pull requests from many free/personal/other accounts as an authorized editor for a single supplement.  But, the clone and pull become burdensome if each clone and pull copies the entire 10+ year history for a working group.  It's reasonable and not too burdensome to clone and pull the entire history of one supplement.  Some supplements have been monsters, but those are the ones where you are most often going to need to see the entire history.  There are things that can be done to optimize pull, but clone will always copy the whole repository.
+    * It's easy to manage pull requests from many free/personal/other accounts as an authorized editor for a single supplement.  But, the clone and fetch become burdensome if each clone or fetch copies the entire 10+ year history for a working group.  It's reasonable and not too burdensome to clone and fetch the entire history of one supplement.  Some supplements have been monsters, but those are the ones where you are most often going to need to see the entire history.  There are things that can be done to optimize fetch, but clone will always copy the whole repository.
 
 * The approach for CPs and meeting folders needs more thought.  Those can involve lots of editors.  Separating out the supplements may simplify dealing with CPs and meeting folders.  (Working group 6 has it's own special major headaches.)
 
