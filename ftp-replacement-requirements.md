@@ -71,7 +71,7 @@
 | Hierarchical model (directory/file) | | yes | yes |
 | Not viewed as security hazard | | no | yes |
 | Storage for documents | | yes | yes |
-| Storage for large files | | yes | extension |
+| Storage for large files | | yes | optional extension |
 | Multiple active uses | | yes | yes |
 | Useable from limited Internet | | yes | yes |
 
