@@ -55,32 +55,32 @@
 
 * Read access and ability to copy a version in time (i.e., the database as of dd-mm-yyyy), 
 * Ability to preserve history of changes (who, what, when)
-* Ability to support various industry change management workflows, such as branch/merge.
+* Ability to support various industry common change management workflows, such as branch/merge.
 * Redundant independent servers
 * MFA authentication of users, at least for any form of writing or modification.  (This may become a legal requirement in the United States.)
 * Integrity and source verification of contents.  (This would link the MFA authentication with the copies and digital signatures provided by the servers.)
 
-| Requirement | | FTP | Git |
-|-------------|-------|-----|-----|
-| Non-proprietary | | yes | yes |
-| Browser support | | no | yes |
-| Command line support | | yes | yes |
-| GUI support | | yes | yes |
-| Access Control | | minimal | 2FA+ |
-| Mirror | | yes | yes |
-| Hierarchical model (directory/file) | | yes | yes |
-| Not viewed as security hazard | | no | yes |
-| Storage for documents | | yes | yes |
-| Storage for large files | | yes | optional extension |
-| Multiple active uses | | yes | yes |
-| Useable from limited Internet | | yes | yes |
+| Requirement | | FTP | Git | Confluence |
+|-------------|-------|-----|-----|-----|
+| Non-proprietary | | yes | yes | no |
+| Browser support | | no | yes | yes | 
+| Command line support | | yes | yes | no? |
+| GUI support (non-browser) | | yes | yes | ? |
+| Access Control | | minimal | 2FA+ | ?|
+| Mirror | | yes | yes | no |
+| Hierarchical model (directory/file) | | yes | yes | no |
+| Not viewed as security hazard | | no | yes | ? |
+| Storage for documents | | yes | yes | yes |
+| Storage for large files | | yes | optional extension | ? |
+| Multiple active uses | | yes | yes | yes ?|
+| Useable from limited Internet | | yes | yes | ? |
 
 
-| Desirable | | FTP | Git |
-|-----------|-------|-----|-----| 
-| Historical view | | no | yes |
-| Change authorship/date/time | | no | yes |
-| Integration with change management workflows | | no | yes |
-| Redundant servers | | no | yes |
-| Change authentication | | no | yes |
-| Integrity verification tools | | no | yes |
+| Desirable | | FTP | Git | Confluence |
+|-----------|-------|-----|-----|---|
+| Historical view | | no | yes | no |
+| Change authorship/date/time | | no | yes | yes |
+| Integration with change management workflows | | no | yes | ? | 
+| Redundant servers | | no | yes | ? |
+| Change authentication | | no | yes | no |
+| Integrity verification tools | | no | yes | ? |
