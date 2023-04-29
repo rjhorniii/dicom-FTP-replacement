@@ -52,6 +52,8 @@ This structure might break down or need changing for meetings and CPs, which is 
 
 1. It minimizes the change to procedures.  We use the same rules right now with FTP.  As a next step we can legitimately argue that all we are doing is replacing FTP with `git`.  Using the additional capabilities of `git` can be a second step after we're familiar with basic `git`.
 
+    The DICOM community is accustomed to the use of `cpnnnn_vv_headline.docx` as the structure for change proposals, and `supnnn_vv_headline.docx` for supplements.  Git and google search are erratic and unreliable for finding and tracking versions of these files based upon the file contents.  Rather than break a working system as part of the initial transition, we should stick with the current naming system.
+
 2. The delta management tools for `git` break down for binary files like Word and Powerpoint documents.  They don't save any space or provide useful information.  They just hide the older versions, which might be counterproductive.  It's certainly an extra change for not much value.
 
 3. For text files (which are not often used in supplement development) we would use the `git` delta management tools.  That's a path for people to become familiar.  The `git` tools are much more useful for text files.
