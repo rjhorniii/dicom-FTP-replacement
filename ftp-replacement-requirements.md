@@ -49,6 +49,8 @@
 * Actively multi-user.
 
     Typical meeting directory use has multiple persons reading and writing to the meeting directory during the meeting. 
+* Limited Internet
+    Useable for travelers on airplanes, trains, waiting rooms, hotels, etc. that have intermittent or otherwise limited Internet access.  This also addresses those with limited infrastructure access.
 
 
 ## FTP Gaps and missing desireable features
@@ -63,16 +65,16 @@
 | Requirement | | FTP | Git | Confluence |
 |-------------|-------|-----|-----|-----|
 | Non-proprietary | | yes | yes | no |
-| Browser support | | no | yes | yes | 
+| Browser support | | no (used to be yes) | yes | yes | 
 | Command line support | | yes | yes | no? |
 | GUI support (non-browser) | | yes | yes | ? |
 | Access Control | | minimal | 2FA+ | ?|
 | Mirror | | yes | yes | no |
 | Hierarchical model (directory/file) | | yes | yes | no |
-| Not viewed as security hazard | | no | yes | ? |
+| Not viewed as security hazard | | no (used to be yes) | yes | ? |
 | Storage for documents | | yes | yes | yes |
 | Storage for large files | | yes | optional extension | ? |
-| Multiple active uses | | yes | yes | yes ?|
+| Multiple active users | | yes | yes | yes ?|
 | Useable from limited Internet | | yes | yes | ? |
 
 
