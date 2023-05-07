@@ -48,8 +48,10 @@
 
 * Actively multi-user.
 
-    Typical meeting directory use has multiple persons reading and writing to the meeting directory during the meeting. 
+    Typical meeting directory use has multiple persons reading and writing to the meeting directory during the meeting. This should not be the source of problems.
+
 * Limited Internet
+
     Useable for travelers on airplanes, trains, waiting rooms, hotels, etc. that have intermittent or otherwise limited Internet access.  This also addresses those with limited infrastructure access.
 
 
@@ -65,13 +67,13 @@
 | Requirement | | FTP | Git | Confluence |
 |-------------|-------|-----|-----|-----|
 | Non-proprietary | | yes | yes | no |
-| Browser support | | no (used to be yes) | yes | yes | 
+| Browser support | | no (previously yes) | yes | yes | 
 | Command line support | | yes | yes | no? |
 | GUI support (non-browser) | | yes | yes | ? |
 | Access Control | | minimal | 2FA+ | ?|
 | Mirror | | yes | yes | no |
 | Hierarchical model (directory/file) | | yes | yes | no |
-| Not viewed as security hazard | | no (used to be yes) | yes | ? |
+| Not viewed as security hazard | | no (previously yes) | yes | ? |
 | Storage for documents | | yes | yes | yes |
 | Storage for large files | | yes | optional extension | ? |
 | Multiple active users | | yes | yes | yes ?|
@@ -81,7 +83,7 @@
 | Desirable | | FTP | Git | Confluence |
 |-----------|-------|-----|-----|---|
 | Historical view | | no | yes | no |
-| Change authorship/date/time | | no | yes | yes |
+| Metadata for changes | | no | yes | yes |
 | Integration with change management workflows | | no | yes | ? | 
 | Redundant servers | | no | yes | ? |
 | Change authentication | | no | yes | no |
